@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "category": "personal",
+        "name": "groceries",
+        "description": "Pick up apples and strawberries.",
+        "isComplete": false,
+        "_rid": "bot0AJzW2wcBAAAAAAAAAA==",
+        "_self": "dbs/bot0AA==/colls/bot0AJzW2wc=/docs/bot0AJzW2wcBAAAAAAAAAA==/",
+        "_etag": "\"6206f9e9-0000-0700-0000-64f4c7790000\"",
+        "_attachments": "attachments/",
+        "_ts": 1693763449
+    },
+    {
+        "id": "2",
+        "category": "work",
+        "name": "az-204",
+        "description": "study.",
+        "isComplete": false,
+        "_rid": "bot0AJzW2wcCAAAAAAAAAA==",
+        "_self": "dbs/bot0AA==/colls/bot0AJzW2wc=/docs/bot0AJzW2wcCAAAAAAAAAA==/",
+        "_etag": "\"6206fae9-0000-0700-0000-64f4c7970000\"",
+        "_attachments": "attachments/",
+        "_ts": 1693763479
+    },
+    {
+        "id": "3",
+        "category": "work",
+        "name": "github meeting",
+        "description": "do the presentation.",
+        "isComplete": false,
+        "_rid": "bot0AJzW2wcDAAAAAAAAAA==",
+        "_self": "dbs/bot0AA==/colls/bot0AJzW2wc=/docs/bot0AJzW2wcDAAAAAAAAAA==/",
+        "_etag": "\"6206fbe9-0000-0700-0000-64f4c7c10000\"",
+        "_attachments": "attachments/",
+        "_ts": 1693763521
+    }
+]

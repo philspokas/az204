@@ -1,0 +1,7 @@
+C:\dev\az204\test-appsvc\bin\Publish\test-appsvc.exe
+C:\dev\az204\test-appsvc\bin\Publish\appsettings.Development.json
+C:\dev\az204\test-appsvc\bin\Publish\appsettings.json
+C:\dev\az204\test-appsvc\bin\Publish\test-appsvc.dll
+C:\dev\az204\test-appsvc\bin\Publish\test-appsvc.deps.json
+C:\dev\az204\test-appsvc\bin\Publish\test-appsvc.runtimeconfig.json
+C:\dev\az204\test-appsvc\bin\Publish\test-appsvc.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jaV0PX+JLmqDUQc7JXcfWRqByyJdrF4UHuIOgXafkBQ/zhcL9qMWjGDUAAmKB4hRh7FCGW82sXHGyasNSmEG9A==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\az204\\rediscache\\rediscache.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PhilSpokas\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\PhilSpokas\\.nuget\\packages\\stackexchange.redis\\2.6.122\\stackexchange.redis.2.6.122.nupkg.sha512",
+    "C:\\Users\\PhilSpokas\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

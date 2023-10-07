@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ewu_fn_2": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7251",
+      "launchBrowser": false
+    }
+  }
+}

@@ -402,3 +402,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 test-appsvc/obj/project.nuget.cache
+test-sb-t/obj/project.nuget.cache
+test-sb-t/obj/test-sb-t.csproj.nuget.dgspec.json
+test-sb-t/obj/test-sb-t.csproj.nuget.g.props

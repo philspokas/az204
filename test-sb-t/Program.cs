@@ -15,7 +15,7 @@ const int numOfMessages = 3;
 // of the application, which is best practice when messages are being published or read
 // regularly.
 
-string namespaceName = "SampleSB";
+string namespaceName = "ewu396";
 string topicName = "test-topic";
 
 //TODO: Replace the "<NAMESPACE-NAME>" and "<TOPIC-NAME>" placeholders.

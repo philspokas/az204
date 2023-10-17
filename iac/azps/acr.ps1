@@ -28,9 +28,6 @@ docker tag weather101 "$($registry.LoginServer)/weather101:v1"
 docker push "$($registry.LoginServer)/weather101:v1"
 
 
-$image_name = "testacr979458854.azurecr.io/weather101:v1"
-
-az container create --resource-group $rg --name weatherapp2 --image $image_name --dns-name-label weather-demo --ports 8080
 
 Invoke-RestMethod -URI "http://weather-demo.westus3.azurecontainer.io:8080/weatherforecast"
 

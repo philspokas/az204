@@ -1,5 +1,6 @@
 $fnuri = "https://test-fn2-249861024.azurewebsites.net/api/HttpTestFn?"
-$appuri = "https://test-appsvc-249861024.azurewebsites.net"
+#$appuri = "https://test-appsvc-249861024.azurewebsites.net"
+$appuri = "https://ewu396jokeapp.azurewebsites.net/api/JokeFunction"
 
 function CallTest($n) {
     $uri = "$($fnuri)name=ps test $n"

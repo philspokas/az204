@@ -3,7 +3,6 @@ using Azure.Storage;
 using Azure.Storage.Queues;
 using Azure.Storage.Queues.Models;
 
-
 var currentDate = DateTime.Now;
 Console.WriteLine($"{Environment.NewLine}Testing Queue Storage on {currentDate:d} at {currentDate:t}!");
 
@@ -25,7 +24,6 @@ if (queueClient.Exists())
     QueueProperties properties = queueClient.GetProperties();
     int cachedMessagesCount = properties.ApproximateMessagesCount;
     Console.WriteLine($"Number of messages in queue: {cachedMessagesCount}");
-
 
     // peek at it
     // Azure.Storage.Queues.Models.PeekedMessage[] messages = queueClient.PeekMessages();

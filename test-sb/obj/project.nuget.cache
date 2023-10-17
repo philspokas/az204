@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RXEp8BTK3vBD7cMIJVz/dkfy+kT3XfxRdq+zwwPYSmFtinOcUzplPcLCCT+a2X6EQR1r0MECDypn1r5pk6EoVA==",
+  "dgSpecHash": "vR/L1x7BvtZRn8IYUmmGtofJs9t/TrtP2q2VEey/LwnyGgIqKK2H8pnOq5+Qv+VC7wVbJtda85BolqbFVzzdqQ==",
   "success": true,
-  "projectFilePath": "c:\\dev\\az204\\test-sb\\test-sb.csproj",
+  "projectFilePath": "C:\\dev\\az204\\test-sb\\test-sb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PhilSpokas\\.nuget\\packages\\azure.core\\1.34.0\\azure.core.1.34.0.nupkg.sha512",
     "C:\\Users\\PhilSpokas\\.nuget\\packages\\azure.core.amqp\\1.3.0\\azure.core.amqp.1.3.0.nupkg.sha512",

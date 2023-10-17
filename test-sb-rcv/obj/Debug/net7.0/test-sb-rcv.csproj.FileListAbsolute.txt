@@ -20,3 +20,4 @@ C:\dev\az204\test-sb-rcv\obj\Debug\net7.0\refint\test-sb-rcv.dll
 C:\dev\az204\test-sb-rcv\obj\Debug\net7.0\test-sb-rcv.pdb
 C:\dev\az204\test-sb-rcv\obj\Debug\net7.0\test-sb-rcv.genruntimeconfig.cache
 C:\dev\az204\test-sb-rcv\obj\Debug\net7.0\ref\test-sb-rcv.dll
+C:\dev\az204\test-sb-rcv\obj\Debug\net7.0\test-sb-rcv.sourcelink.json

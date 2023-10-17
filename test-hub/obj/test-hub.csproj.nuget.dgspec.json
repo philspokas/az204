@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\az204\\test-hub\\test-hub.csproj": {}
+    "C:\\dev\\az204\\test-hub\\test-hub.csproj": {}
   },
   "projects": {
-    "c:\\dev\\az204\\test-hub\\test-hub.csproj": {
+    "C:\\dev\\az204\\test-hub\\test-hub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\az204\\test-hub\\test-hub.csproj",
+        "projectUniqueName": "C:\\dev\\az204\\test-hub\\test-hub.csproj",
         "projectName": "test-hub",
-        "projectPath": "c:\\dev\\az204\\test-hub\\test-hub.csproj",
+        "projectPath": "C:\\dev\\az204\\test-hub\\test-hub.csproj",
         "packagesPath": "C:\\Users\\PhilSpokas\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\az204\\test-hub\\obj\\",
+        "outputPath": "C:\\dev\\az204\\test-hub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PhilSpokas\\AppData\\Roaming\\NuGet\\NuGet.Config",

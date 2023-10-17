@@ -20,3 +20,4 @@ C:\dev\az204\test-sb\obj\Debug\net7.0\refint\test-sb.dll
 C:\dev\az204\test-sb\obj\Debug\net7.0\test-sb.pdb
 C:\dev\az204\test-sb\obj\Debug\net7.0\test-sb.genruntimeconfig.cache
 C:\dev\az204\test-sb\obj\Debug\net7.0\ref\test-sb.dll
+C:\dev\az204\test-sb\obj\Debug\net7.0\test-sb.sourcelink.json

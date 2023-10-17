@@ -1,7 +1,7 @@
 $rg="samples"
 $location="westus3"
 $namespace="SampleSB"
-$queuename="OrdersQueue"
+$queuename="orders-queue"
 
 az group create --name $rg --location $location
 

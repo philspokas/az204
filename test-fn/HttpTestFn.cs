@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace My.Function
+namespace cscd396.Function
 {
-    public static class HttpTestFn
+    public static class HttpTestName
     {
-        [FunctionName("HttpTestFn")]
+        [FunctionName("HttpTestName")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
@@ -26,8 +26,8 @@ namespace My.Function
             name = name ?? data?.name;
 
             string responseMessage = string.IsNullOrEmpty(name)
-                ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"Hello, {name}. This HTTP triggered function executed successfully.";
+                ? "Pass a name in the query string or request"
+                : $"Hello, {name}.";
 
             return new OkObjectResult(responseMessage);
         }

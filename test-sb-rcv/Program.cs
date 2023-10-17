@@ -1,7 +1,8 @@
 ﻿using Azure.Messaging.ServiceBus;
 
-string connectionString = "Endpoint=sb://samplesb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BybD3HCi17BenKiWJy8sZ8gCgq9JA7qNo+ASbLG+bpE=";
-string queueName = "OrdersQueue";
+// todo: get rid of secret string!
+string connectionString = "Endpoint=sb://samplesb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=dfGVRtUTYN57QMkfVffDqhsOnuwbBsO9E+ASbIq51+U=";
+string queueName = "orders-queue";
 
 Console.WriteLine("Testing ServiceBus Queue");
 

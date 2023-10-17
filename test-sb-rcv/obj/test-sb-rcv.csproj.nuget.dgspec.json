@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj": {}
+    "C:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj": {}
   },
   "projects": {
-    "c:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj": {
+    "C:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj",
+        "projectUniqueName": "C:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj",
         "projectName": "test-sb-rcv",
-        "projectPath": "c:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj",
+        "projectPath": "C:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj",
         "packagesPath": "C:\\Users\\PhilSpokas\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\az204\\test-sb-rcv\\obj\\",
+        "outputPath": "C:\\dev\\az204\\test-sb-rcv\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PhilSpokas\\AppData\\Roaming\\NuGet\\NuGet.Config",

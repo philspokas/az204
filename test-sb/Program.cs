@@ -1,8 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Azure.Messaging.ServiceBus;
 
-string connectionString = "Endpoint=sb://samplesb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=BybD3HCi17BenKiWJy8sZ8gCgq9JA7qNo+ASbLG+bpE=";
-string queueName = "OrdersQueue";
+// todo: get rid of secret!
+string connectionString = "Endpoint=sb://samplesb.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=dfGVRtUTYN57QMkfVffDqhsOnuwbBsO9E+ASbIq51+U=";
+string queueName = "orders-queue";
 
 Console.WriteLine("Testing ServiceBus Queue");
 
@@ -19,12 +20,16 @@ sender = client.CreateSender(queueName);
 // create a batch 
 using ServiceBusMessageBatch messageBatch = await sender.CreateMessageBatchAsync();
 
+
 for (int i = 1; i <= 3; i++)
 {
-    // try adding a message to the batch
-    if (!messageBatch.TryAddMessage(new ServiceBusMessage($"Message {i}")))
+    // Add some messages
+
+    Guid g = Guid.NewGuid();
+
+    if (!messageBatch.TryAddMessage(new ServiceBusMessage($"Message {g}")))
     {
-        // if an exception occurs
+        // if adding the message fails, throw but we don't know why ???
         throw new Exception($"Exception {i} has occurred.");
     }
 }

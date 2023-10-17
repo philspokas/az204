@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\az204\\test-appsvc\\test-appsvc.csproj": {}
+    "C:\\dev\\az204\\test-appsvc\\test-appsvc.csproj": {}
   },
   "projects": {
-    "c:\\dev\\az204\\test-appsvc\\test-appsvc.csproj": {
+    "C:\\dev\\az204\\test-appsvc\\test-appsvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\az204\\test-appsvc\\test-appsvc.csproj",
+        "projectUniqueName": "C:\\dev\\az204\\test-appsvc\\test-appsvc.csproj",
         "projectName": "test-appsvc",
-        "projectPath": "c:\\dev\\az204\\test-appsvc\\test-appsvc.csproj",
+        "projectPath": "C:\\dev\\az204\\test-appsvc\\test-appsvc.csproj",
         "packagesPath": "C:\\Users\\PhilSpokas\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\az204\\test-appsvc\\obj\\",
+        "outputPath": "C:\\dev\\az204\\test-appsvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PhilSpokas\\AppData\\Roaming\\NuGet\\NuGet.Config",

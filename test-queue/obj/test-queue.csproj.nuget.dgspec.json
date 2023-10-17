@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\az204\\test-queue\\test-queue.csproj": {}
+    "C:\\dev\\az204\\test-queue\\test-queue.csproj": {}
   },
   "projects": {
-    "c:\\dev\\az204\\test-queue\\test-queue.csproj": {
+    "C:\\dev\\az204\\test-queue\\test-queue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\az204\\test-queue\\test-queue.csproj",
+        "projectUniqueName": "C:\\dev\\az204\\test-queue\\test-queue.csproj",
         "projectName": "test-queue",
-        "projectPath": "c:\\dev\\az204\\test-queue\\test-queue.csproj",
+        "projectPath": "C:\\dev\\az204\\test-queue\\test-queue.csproj",
         "packagesPath": "C:\\Users\\PhilSpokas\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\az204\\test-queue\\obj\\",
+        "outputPath": "C:\\dev\\az204\\test-queue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PhilSpokas\\AppData\\Roaming\\NuGet\\NuGet.Config",

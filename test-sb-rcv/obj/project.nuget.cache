@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "barHoM1kkDtGmU63tcGm+LkhFY1rRGAaGSdJh8REwPeI44/heTiuBJSWuJC3IuKuLzVcwk7UBBuFd/fwhHW2zA==",
+  "dgSpecHash": "OPF+p5qD1StJ54UQaK0Q8hhMrHmxwoOTEpWRVdThLc4Rk+bvcBiOttJKqsSJRtYcZyq38zp+GaIF/H+tV7vvKw==",
   "success": true,
-  "projectFilePath": "c:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj",
+  "projectFilePath": "C:\\dev\\az204\\test-sb-rcv\\test-sb-rcv.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PhilSpokas\\.nuget\\packages\\azure.core\\1.34.0\\azure.core.1.34.0.nupkg.sha512",
     "C:\\Users\\PhilSpokas\\.nuget\\packages\\azure.core.amqp\\1.3.0\\azure.core.amqp.1.3.0.nupkg.sha512",

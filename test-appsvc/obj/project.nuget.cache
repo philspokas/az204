@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pNF6U9CmAYOPRVNMPjrvqE3qlw2aX+TJ0ip8sgnF2HKwcYDyiivuyAyKptaRi+EJyQzNh4ESNPrcKHmAqwoKVA==",
+  "dgSpecHash": "d04Y1J062xGeItipnyte1n2TPqz8VkVVzupmFoNWD/oP0/K0Ac+VWtMCZSjneNjaRIlDLoucHcSUIcLKa/NIOA==",
   "success": true,
-  "projectFilePath": "c:\\dev\\az204\\test-appsvc\\test-appsvc.csproj",
+  "projectFilePath": "C:\\dev\\az204\\test-appsvc\\test-appsvc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

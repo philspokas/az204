@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CA9MAbD8AU+yNJ2ViTke3zlthfVWlzFikfP5pyFtilvyJ+Thrmud5yRvRllqziPw546ywhgZOPWdpARIiggOxg==",
+  "dgSpecHash": "arw7S1M0FcLgFSen8WSBzMLHHlyrYNMud2482IAbLLCh+MWlElD35PqKBWoEd9vJvqiRtvDO1zJptUVhHDFHMA==",
   "success": true,
-  "projectFilePath": "c:\\dev\\az204\\test-queue\\test-queue.csproj",
+  "projectFilePath": "C:\\dev\\az204\\test-queue\\test-queue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PhilSpokas\\.nuget\\packages\\azure.core\\1.34.0\\azure.core.1.34.0.nupkg.sha512",
     "C:\\Users\\PhilSpokas\\.nuget\\packages\\azure.storage.common\\12.16.0\\azure.storage.common.12.16.0.nupkg.sha512",

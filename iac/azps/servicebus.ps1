@@ -3,7 +3,7 @@ $location="westus3"
 $namespace="ewu396"
 $queuename="jokes-queue"
 
-az group create --name $rg --location $location
+# az group create --name $rg --location $location
 
 az servicebus namespace create --resource-group $rg --name $namespace --location $location
 

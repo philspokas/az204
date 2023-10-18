@@ -8,7 +8,7 @@ ServiceBusClient client;
 // the processor that reads and processes messages from the subscription
 ServiceBusProcessor processor;
 
-string namespaceName = "SampleSB";
+string namespaceName = "ewu396";
 string topicName = "test-topic";
 string subscriptionName = "test-topic-sub";
 

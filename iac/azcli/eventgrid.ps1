@@ -35,7 +35,6 @@ az storage account create --name ewu396jokes  --location $location --resource-gr
 az deployment group create --resource-group $rg --template-uri "https://raw.githubusercontent.com/Azure-Samples/azure-event-grid-viewer/master/azuredeploy.json" --parameters siteName=$sitename hostingPlanName=viewerhost
 
 # subscribe to storage
-$storageid=$(az storage account show --name ewu396jokes --resource-group $rg --query id --output tsv)
 $endpoint="https://$sitename.azurewebsites.net/api/updates"
 az eventgrid event-subscription create --source-resource-id $storageid --name ewu396-eg-sub --endpoint $endpoint
 

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "fn_eg_blob_trigger": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7247",
+      "launchBrowser": false
+    }
+  }
+}

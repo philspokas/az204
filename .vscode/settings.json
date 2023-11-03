@@ -1,7 +1,7 @@
 {
     "azure.tenant": "37321907-14a5-4390-987d-ec0c66c655cd",
     "azureFunctions.projectSubpath": "test-function-1123",
-    "azureFunctions.deploySubpath": "ewu-fn-2/bin/Release/net8.0/publish",
+    "azureFunctions.deploySubpath": "fn-eg-blob-trigger/bin/Release/net6.0/publish",
     "azureFunctions.postDeployTask": "npm install (functions)",
     "azureFunctions.projectLanguage": "C#",
     "azureFunctions.projectRuntime": "~4",

@@ -63,3 +63,17 @@ az storage blob upload --file joke4.json --container-name $container --name .\jo
 # Add subscriptions for the fn endpoint
 $fnendpoint = "https://jokefunction396.azurewebsites.net/runtime/webhooks/EventGrid?functionName=ProcessJokeEG&code=KvrCyhdcEX1SQiAwcs6GG73tSo_-XX6_6LZySQoeXfmEAzFuzC_uzw=="
 az eventgrid event-subscription create --source-resource-id $storageid --name ewu396-eg-sub2 --endpoint $fnendpoint
+
+
+$rg = "ewu-samples"
+$fnendpoint = "https://ewu396-eg-test.azurewebsites.net/runtime/webhooks/EventGrid?functionName=TestBlobEventGridTrigger&code=k4f4oSvSEO0V1Hlynto62ZRcq8bdnG5G-7Ud0XzsVeBdAzFuh1t1hg=="
+$storage = "ewu396jokes"
+$container = "jokescontainer"
+$storageid = $(az storage account show --name $storage --resource-group $rg --query id --output tsv)
+
+az eventgrid resource event-subscription create --source-resource-id $storageid --name eg-fn-sub1 --endpoint $fnendpoint
+
+az eventgrid resource event-subscription create -g $rg --provider-namespace Microsoft.Storage --resource-type storageAccounts --resource-name ewu396jokes --name eg-func-sub 
+--included-event-types Microsoft.Storage.BlobCreated 
+--subject-begins-with /blobServices/default/containers/images/blobs/ 
+--endpoint https://mystoragetriggeredfunction.azurewebsites.net/runtime/webhooks/eventgrid?functionName=imageresizefunc&code=<key>
